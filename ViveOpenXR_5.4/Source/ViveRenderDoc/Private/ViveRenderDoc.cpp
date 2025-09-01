@@ -136,7 +136,7 @@ void FViveRenderDoc::DumpVulkanInfos()
 	VkCommandBuffer CmdBuffer = CmdMgr->GetActiveCmdBuffer()->GetHandle();
 	VkCommandBuffer UploadCmdBuffer = CmdMgr->GetUploadCmdBuffer()->GetHandle();
 	FVulkanDevice* VulkanDevice = FVulkanCommandListContext::GetVulkanContext(RHICmdList.GetContext()).GetDevice();
-	VkDevice Device = VulkanDevice->GetVkDevice();
+	VkDevice Device = VulkanDevice->GetInstanceHandle();
 	UE_LOG(LogViveRenderDoc, Log, TEXT("CmdBuffer: 0x%p, Device: 0x%p, UploadCmdBuffer: 0x%p"), CmdBuffer, Device, UploadCmdBuffer);
 }
 
