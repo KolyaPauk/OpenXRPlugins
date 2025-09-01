@@ -25,12 +25,9 @@ namespace UnrealBuildTool.Rules
 					"Engine",
                     "Projects",
 					"OpenXRHMD",
-					"RHICore", //For RHICoreShader.h
+					"RHICore",
 					"VulkanRHI",
-					"RHI",
-                    "RenderCore",
-                    "Renderer",
-                    "HeadMountedDisplay"
+					"RHI"
 				}
 			);
 
