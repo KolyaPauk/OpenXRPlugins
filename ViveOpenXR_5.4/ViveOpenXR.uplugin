@@ -10,7 +10,7 @@
 	"DocsURL": "https://developer.vive.com/resources/openxr/unreal/unreal-overview/",
 	"MarketplaceURL": "",
 	"SupportURL": "https://developer.vive.com/",
-	"EngineVersion": "5.4.0",
+	"EngineVersion": "5.5.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"SupportedTargetPlatforms": [

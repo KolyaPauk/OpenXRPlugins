@@ -7,6 +7,7 @@
 #include "VulkanPlatform.h"
 #include "VulkanRHIPrivate.h"
 #include "VulkanContext.h"
+#include "VulkanDevice.h"
 
 DEFINE_LOG_CATEGORY(LogViveRenderDoc);
 

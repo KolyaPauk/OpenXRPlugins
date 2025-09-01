@@ -120,10 +120,6 @@ const void* FViveOpenXRHMD::OnCreateSession(XrInstance InInstance, XrSystemId In
 {
 	UE_LOG(LogViveOpenXRHMD, Log, TEXT("Vive OpenXR OnCreateSession"));
 #if PLATFORM_ANDROID
-	if (GRHISupportsRHIThread && GIsThreadedRendering && GUseRHIThread_InternalUseOnly)
-	{
-		SetRHIThreadEnabled(false, false);
-	}
 #endif
 	return InNext;
 }
