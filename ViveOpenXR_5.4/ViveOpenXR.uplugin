@@ -135,14 +135,6 @@
 			]
 		},
 		{
-			"Name": "ViveRenderDoc",
-			"Type": "Runtime",
-			"LoadingPhase": "PostConfigInit",
-			"PlatformAllowList": [
-				"Android"
-			]
-		},
-		{
 			"Name": "ViveOpenXRDisplayRefreshRate",
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
